@@ -1,0 +1,7 @@
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\bin\Debug\V-Logger.exe.config
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\bin\Debug\V-Logger.exe
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\bin\Debug\V-Logger.pdb
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.AssemblyReference.cache
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.CoreCompileInputs.cache
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.exe
+C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.pdb
