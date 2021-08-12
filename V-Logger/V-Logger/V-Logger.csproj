@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F70FC24D-515D-4AC9-A90E-EEB63F8BF8BF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>V_Logger</RootNamespace>
-    <AssemblyName>V-Logger</AssemblyName>
+    <RootNamespace>printerSrvc</RootNamespace>
+    <AssemblyName>printerSrvc</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

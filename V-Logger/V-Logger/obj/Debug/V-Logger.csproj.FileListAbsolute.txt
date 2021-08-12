@@ -5,10 +5,9 @@ C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.Assembl
 C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.CoreCompileInputs.cache
 C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.exe
 C:\Users\Joseph\source\repos\V-Logger\V-Logger\obj\Debug\V-Logger.pdb
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\V-Logger.exe.config
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\V-Logger.exe
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\V-Logger.pdb
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.AssemblyReference.cache
 C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.CoreCompileInputs.cache
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.exe
-C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.pdb
+C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.exe.config
+C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.exe
+C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.pdb
+C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.exe
+C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.pdb
